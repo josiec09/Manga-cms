@@ -2,11 +2,11 @@
 // database hostname - you don't usually need to change this
 define('db_host','localhost');
 // database username
-define('db_user','josiec09');
+define('db_user','');
 // database password
-define('db_pass','batman123');
+define('db_pass','');
 // database name
-define('db_name','reaper_hentai');
+define('db_name','');
 // database charset - change this only if utf8 is unsupported by your language
 define('db_charset','utf8');
 /* Registration */
@@ -16,9 +16,9 @@ define('auto_login_after_register',false);
 // account activation required?
 define('account_activation',true);
 // Change "Your Company Name" and "yourdomain.com" - do not remove the < and > characters
-define('mail_from','Halloweeb.Town <noreply@halloweeb.town>');
+define('mail_from','demo <noreply@demo.town>');
 // Link to activation file
-define('activation_link','https://halloweeb.town/activate');
+define('activation_link','https://demo.com/activate');
 
 // Home Page manga
 define('manga_per_page','15');
