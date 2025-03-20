@@ -3,7 +3,7 @@ This is a WIP Manage reading CMS. It is far from complete and is not ready for u
 To-Do-List
   1. Add database files
   2. Start Admin area
-  3. Finsih user profiles
+  3. Finish user profiles
   4. Other frontend changes
   5. Better template system
   6. Install script
