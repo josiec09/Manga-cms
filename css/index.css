@@ -1,0 +1,1148 @@
+@media(max-width:480px) and (min-width:320px) {
+    .wrap {
+        width: 100%
+    }
+
+    #header {
+        height: 46px
+    }
+
+    #header .right .search input[type=text],
+    .search_mobile input[type=text] {
+        width: 210px
+    }
+
+    .drop_btn {
+        display: none
+    }
+
+    #nav_btn {
+        display: block !important;
+        cursor: pointer;
+        outline: 0;
+        border: 0;
+        background: 0 0;
+        -webkit-appearance: none
+    }
+
+    #nav_btn:active,
+    #nav_btn:hover {
+        border: 0;
+        background: 0 0;
+        -webkit-appearance: none;
+        -webkit-tap-highlight-color: transparent
+    }
+
+    .navbar-toggle {
+        position: absolute;
+        top: 6px;
+        right: 0;
+        margin-right: 0;
+        float: right;
+        padding: 8px 11px;
+        background-color: transparent;
+        background-image: none;
+        border: 1px solid transparent;
+        border-radius: 4px
+    }
+
+    .navbar-toggle .icon-bar {
+        background: #fff;
+        margin-bottom: 5px;
+        display: block;
+        width: 22px;
+        height: 2px;
+        border-radius: 1px
+    }
+
+    .navbar-toggle .icon-bar:last-child {
+        margin-bottom: 0
+    }
+
+    .sr-only {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        border: 0
+    }
+
+    .pagination {
+        flex-wrap: wrap;
+        margin-top: 50px;
+        padding-bottom: 20px
+    }
+
+    .page-item {
+        margin: 0 5px 5px 0
+    }
+
+    #header .logo {
+        display: none
+    }
+
+    .pagination a {
+        display: inline-table
+    }
+
+    #header .left,
+    .navigation {
+        display: none
+    }
+
+    #header .right .search {
+        margin: 6px 5px 0
+    }
+
+    #header .right {
+        float: left
+    }
+
+    #header .logomb,
+    nav {
+        display: block
+    }
+
+    #header .right .navicon {
+        display: block;
+        margin: 10px 0 0;
+        position: absolute;
+        right: 15px;
+        top: 3px
+    }
+
+    #content .inner_content {
+        padding: 0
+    }
+
+    #content {
+        padding: 0
+    }
+
+    .results_info {
+        margin-top: 20px
+    }
+
+    #content .inner_content .preview_item {
+        width: 48%;
+        margin-bottom: 40px !important;
+        margin: 0
+    }
+
+    #content .inner_content .ov_item,
+    #content .inner_content .tag_gl,
+    #content .inner_content .favs_list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around !important;
+        padding: 0 5px
+    }
+
+    #content .inner_content .preview_item .image {
+        width: 100%
+    }
+
+    #content .inner_content .preview_item .image .caption {
+        width: 100%
+    }
+
+    #content .inner_content .n_galleries .preview_item {
+        width: 48.2%;
+        margin-bottom: 3em !important;
+        margin-right: 5px
+    }
+
+    #content .inner_content .n_galleries .preview_item .image {
+        width: 100%
+    }
+
+    #content .inner_content .n_galleries .preview_item .image .caption {
+        width: calc(99.87% - 12px)
+    }
+
+    #content .inner_content .n_galleries .preview_item:nth-child(3),
+    #content .inner_content .n_galleries .preview_item:nth-child(4),
+    #content .inner_content .n_galleries .preview_item:nth-child(5) {
+        display: none
+    }
+
+    #content .inner_content .book_page .left {
+        width: 300px;
+        max-width: 300px;
+        margin: 0 auto;
+        padding-top: 10px;
+        float: none
+    }
+
+    #content .inner_content .book_page .ads_under_details img,
+    #content .inner_content .book_page .left .cover img {
+        width: 100%
+    }
+
+    #content .inner_content .book_page .right {
+        float: left;
+        width: 100%
+    }
+
+    #content .inner_content .book_page .gallery #append_thumbs {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 0 5px
+    }
+
+    #content .inner_content .book_page .gallery .preview_thumb {
+        width: 49%;
+        margin: 0
+    }
+
+    #content .inner_content .comments {
+        text-align: left
+    }
+
+    #content .inner_content .comments .alert {
+        font-size: .8em
+    }
+
+    #content .inner_content .profile_page .right .profile_content {
+        width: 99.8%;
+        padding: 0
+    }
+
+    #content .inner_content .profile_page .right .profile_content .preview_item {
+        width: 48%;
+        margin: .7% 1%
+    }
+
+    #content .inner_content .profile_page .right .profile_content .preview_item .image {
+        width: 100%
+    }
+
+    #content .inner_content .profile_page .right .profile_content .preview_item .caption a {
+        font-size: 14px;
+        width: calc(99.35% - 12px)
+    }
+
+    #content .inner_content .profile_page .left,
+    #content .inner_content .profile_page .right {
+        width: 100%;
+        float: none
+    }
+
+    #content .inner_content .info_page {
+        background: #fff
+    }
+
+    #content .inner_content .tags_page .tags li {
+        width: 99%
+    }
+
+    #content .inner_content .profile_page .left .info_box {
+        margin: 15px auto
+    }
+
+    #content .inner_content .book_page .right .info .alert {
+        width: 93%
+    }
+
+    #content .inner_content .user_info .left,
+    #content .inner_content .user_info .right {
+        float: none;
+        text-align: center;
+        padding: 0;
+        margin: 0
+    }
+
+    #content .inner_content .preview_item .remove_fav_link {
+        left: 0
+    }
+
+    #content .inner_content .book_page .left .cover,
+    #content .inner_content .book_page .right .info {
+        margin: 0 auto 10px 0;
+        text-align: left
+    }
+
+    #content .inner_content .login_page .login_form,
+    #content .inner_content .login_page .register_form {
+        float: none;
+        margin: 0 auto
+    }
+
+    #footer .left,
+    #footer .right {
+        float: none;
+        text-align: center
+    }
+}
+
+@media(max-width:640px) and (min-width:481px) {
+    .wrap {
+        width: 100%
+    }
+
+    #header {
+        height: 46px
+    }
+
+    #header .right .search input[type=text],
+    .search_mobile input[type=text] {
+        width: 285px
+    }
+
+    .drop_btn {
+        display: none
+    }
+
+    #nav_btn {
+        display: block !important;
+        cursor: pointer;
+        outline: 0;
+        border: 0;
+        background: 0 0;
+        -webkit-appearance: none
+    }
+
+    #nav_btn:active,
+    #nav_btn:hover {
+        border: 0;
+        background: 0 0;
+        -webkit-appearance: none;
+        -webkit-tap-highlight-color: transparent
+    }
+
+    .navbar-toggle {
+        position: absolute;
+        top: 6px;
+        right: 0;
+        margin-right: 0;
+        float: right;
+        padding: 8px 11px;
+        background-color: transparent;
+        background-image: none;
+        border: 1px solid transparent;
+        border-radius: 4px
+    }
+
+    .navbar-toggle .icon-bar {
+        background: #fff;
+        margin-bottom: 5px;
+        display: block;
+        width: 22px;
+        height: 2px;
+        border-radius: 1px
+    }
+
+    .navbar-toggle .icon-bar:last-child {
+        margin-bottom: 0
+    }
+
+    #header .logo {
+        display: none
+    }
+
+    .pagination {
+        flex-wrap: wrap;
+        margin-top: 50px;
+        padding-bottom: 20px
+    }
+
+    .page-item {
+        margin: 0 5px 5px 0
+    }
+
+    #header .left,
+    .navigation {
+        display: none
+    }
+
+    #header .right .search {
+        margin: 6px 5px 0
+    }
+
+    #header .right {
+        float: left
+    }
+
+    #header .logomb,
+    nav {
+        display: block
+    }
+
+    #header .right .navicon {
+        display: block;
+        margin: 10px 0 0;
+        position: absolute;
+        right: 15px;
+        top: 3px
+    }
+
+    #content .inner_content {
+        padding: 0
+    }
+
+    #content .inner_content .preview_item {
+        width: 31.2%;
+        margin: 0;
+        margin-bottom: 3em !important
+    }
+
+    #content .inner_content .ov_item,
+    #content .inner_content .tag_gl,
+    #content .inner_content .favs_list {
+        justify-content: space-around !important;
+        padding: 0 5px
+    }
+
+    #content .inner_content .preview_item .image {
+        width: 100%
+    }
+
+    #content .inner_content .preview_item .image .caption {
+        width: 100%
+    }
+
+    #content .inner_content .n_galleries .preview_item {
+        width: 32.2%;
+        margin-bottom: 3em !important;
+        margin-right: 5px
+    }
+
+    #content .inner_content .n_galleries .preview_item .image {
+        width: 100%
+    }
+
+    #content .inner_content .n_galleries .preview_item .image .caption {
+        width: 100%
+    }
+
+    #content .inner_content .n_galleries .preview_item:nth-child(4),
+    #content .inner_content .n_galleries .preview_item:nth-child(5) {
+        display: none
+    }
+
+    #content .inner_content .preview_item:nth-child(5n+5) {
+        margin: none !important
+    }
+
+    #content .inner_content .book_page .left {
+        float: none;
+        margin: 0 auto;
+        width: 60%;
+        padding-top: 10px
+    }
+
+    #content .inner_content .book_page .left .cover img {
+        width: 100%
+    }
+
+    #content .inner_content .book_page .right {
+        float: left;
+        width: 100%
+    }
+
+    #content .inner_content .book_page .ads_under_details img {
+        display: block;
+        margin: 0 auto;
+        width: 80%
+    }
+
+    #content .inner_content .book_page .gallery #append_thumbs {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 0 5px
+    }
+
+    #content .inner_content .book_page .gallery .preview_thumb {
+        width: 32.6%;
+        margin: 0
+    }
+
+    #content .inner_content .comments {
+        text-align: left
+    }
+
+    #content .inner_content .comments .alert {
+        font-size: .8em
+    }
+
+    #content .inner_content .profile_page .right .profile_content {
+        width: 99.6%;
+        padding: 0
+    }
+
+    #content .inner_content .profile_page .right .profile_content .preview_item {
+        width: 31%;
+        margin: .3% 1%
+    }
+
+    #content .inner_content .profile_page .right .profile_content .preview_item .image {
+        width: 100%
+    }
+
+    #content .inner_content .profile_page .right .profile_content .preview_item .caption a {
+        font-size: 14px;
+        width: calc(99.33% - 12px)
+    }
+
+    #content .inner_content .profile_page .left,
+    #content .inner_content .profile_page .right {
+        width: 100%;
+        float: none
+    }
+
+    #content .inner_content .info_page {
+        background: #fff
+    }
+
+    #content .inner_content .book_page .left .cover,
+    #content .inner_content .book_page .right .info {
+        margin: 0 auto 10px 0;
+        text-align: left
+    }
+
+    #content .inner_content .tags_page .tags li {
+        width: 48%
+    }
+
+    #content .inner_content .profile_page .right .profile_content .edit_profile table td {
+        padding: 10px 0 10px 10px
+    }
+
+    #content .inner_content .profile_page .right .profile_content .edit_profile input[type=submit] {
+        margin: 0 7px 0 0
+    }
+
+    #content .inner_content .profile_page .right .profile_content .edit_profile input[type=password],
+    #content .inner_content .profile_page .right .profile_content .edit_profile input[type=text] {
+        width: 90%
+    }
+
+    #content .inner_content .login_page .login_form,
+    #content .inner_content .login_page .register_form {
+        float: none;
+        margin: 0 auto
+    }
+
+    #footer .left,
+    #footer .right {
+        float: none;
+        text-align: center
+    }
+}
+
+@media(max-width:800px) and (min-width:641px) {
+    .wrap {
+        width: 100%
+    }
+
+    #header {
+        height: 48px
+    }
+
+    #header .right .search {
+        margin: 7px 10px 0 0
+    }
+
+    #header .sec {
+        display: block !important;
+        height: 48px;
+        position: absolute;
+        right: 0
+    }
+
+    #header .nav ul li a {
+        height: 48px;
+        padding: 0 14px;
+        line-height: 48px
+    }
+
+    #header .right .search input[type=text],
+    .search_mobile input[type=text] {
+        width: 285px
+    }
+
+    #header .right {
+        float: left
+    }
+
+    #header .drop_btn {
+        display: block
+    }
+
+    #nav_btn {
+        display: none
+    }
+
+    .pagination {
+        flex-wrap: wrap;
+        padding-bottom: 20px
+    }
+
+    .page-item {
+        margin: 0 5px 5px 0
+    }
+
+    #content .inner_content {
+        padding: 0
+    }
+
+    #content .inner_content .preview_item {
+        width: 24%;
+        margin: 0;
+        margin-bottom: 3em !important
+    }
+
+    #content .inner_content .ov_item,
+    #content .inner_content .tag_gl,
+    #content .inner_content .favs_list {
+        justify-content: space-around !important;
+        padding: 0 5px
+    }
+
+    #content .inner_content .preview_item .image {
+        width: 100%
+    }
+
+    #content .inner_content .preview_item .image .caption {
+        width: 100%
+    }
+
+    #content .inner_content .n_galleries .preview_item {
+        width: 23.4%;
+        margin-bottom: 3em !important
+    }
+
+    #content .inner_content .n_galleries .preview_item .image {
+        width: 100%
+    }
+
+    #content .inner_content .n_galleries .preview_item .image .caption {
+        width: 100%
+    }
+
+    #content .inner_content .n_galleries .preview_item:last-child {
+        display: none
+    }
+
+    #content .inner_content .book_page .left {
+        width: 37%
+    }
+
+    #content .inner_content .book_page .left .cover {
+        padding-top: 7px
+    }
+
+    #content .inner_content .book_page .left .cover img {
+        width: 100%;
+        max-width: 350px
+    }
+
+    #content .inner_content .book_page .right {
+        float: right;
+        width: 62%;
+        text-align: left
+    }
+
+    #content .inner_content .book_page .ads_under_details img {
+        display: block;
+        margin: 0 auto;
+        width: 80%
+    }
+
+    #content .inner_content .book_page .gallery {
+        padding: 0
+    }
+
+    #content .inner_content .book_page .gallery #append_thumbs {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 0 5px
+    }
+
+    #content .inner_content .book_page .gallery .preview_thumb {
+        width: 24.3%;
+        margin: 0
+    }
+
+    #content .inner_content .comments {
+        text-align: left
+    }
+
+    #content .inner_content .comments .alert {
+        font-size: .8em
+    }
+
+    #content .inner_content .profile_page .left {
+        float: left
+    }
+
+    #content .inner_content .profile_page .right {
+        float: left;
+        width: 56%
+    }
+
+    #content .inner_content .profile_page .right .profile_content {
+        width: 100%
+    }
+
+    #content .inner_content .profile_page .right .profile_content .preview_item {
+        width: 48%;
+        margin: .3% 1%
+    }
+
+    #content .inner_content .profile_page .right .profile_content .preview_item .image {
+        width: 100%
+    }
+
+    #content .inner_content .info_page {
+        background: #fff
+    }
+
+    #content .inner_content .profile_page .right .profile_content .edit_profile input[type=password],
+    #content .inner_content .profile_page .right .profile_content .edit_profile input[type=text] {
+        width: 86%
+    }
+
+    #content .inner_content .profile_page .right .profile_content .preview_item .caption a {
+        font-size: 14px;
+        width: calc(99.33% - 12px)
+    }
+
+    #content .inner_content .login_page .login_form,
+    #content .inner_content .login_page .register_form {
+        float: none;
+        margin: 0 auto
+    }
+}
+
+@media(max-width:960px) and (min-width:801px) {
+    .wrap {
+        width: 100%
+    }
+
+    #header {
+        height: 48px
+    }
+
+    #header .right .search {
+        margin: 7px 10px 0 0
+    }
+
+    #header .sec {
+        display: block !important;
+        height: 48px;
+        position: absolute;
+        right: 0
+    }
+
+    #header .nav ul li a {
+        height: 48px;
+        padding: 0 14px;
+        line-height: 48px
+    }
+
+    #header .right .search input[type=text],
+    .search_mobile input[type=text] {
+        width: 285px
+    }
+
+    #header .right {
+        float: left
+    }
+
+    #header .drop_btn {
+        display: block
+    }
+
+    #nav_btn {
+        display: none
+    }
+
+    .pagination {
+        flex-wrap: wrap;
+        margin-top: 50px;
+        padding-bottom: 20px
+    }
+
+    .page-item {
+        margin: 0 5px 5px 0
+    }
+
+    #content .inner_content {
+        padding: 0
+    }
+
+    #content .inner_content .preview_item {
+        width: 24.3%;
+        margin: 0;
+        margin-bottom: 3em !important
+    }
+
+    #content .inner_content .ov_item,
+    #content .inner_content .tag_gl,
+    #content .inner_content .favs_list {
+        justify-content: space-around !important;
+        padding: 0 5px
+    }
+
+    #content .inner_content .preview_item .image {
+        width: 100%
+    }
+
+    #content .inner_content .preview_item .image .caption {
+        width: 100%
+    }
+
+    #content .inner_content .n_galleries .preview_item {
+        width: 24.2%;
+        margin-bottom: 3em !important;
+        margin-right: 7px
+    }
+
+    #content .inner_content .n_galleries .preview_item .image {
+        width: 100%
+    }
+
+    #content .inner_content .n_galleries .preview_item .image .caption {
+        width: calc(99.9% - 12px)
+    }
+
+    #content .inner_content .n_galleries .preview_item:last-child {
+        display: none
+    }
+
+    #content .inner_content .book_page .left {
+        width: 37%
+    }
+
+    #content .inner_content .book_page .left .cover img {
+        width: 100%;
+        max-width: 350px
+    }
+
+    #content .inner_content .book_page .right {
+        float: right;
+        width: 62%
+    }
+
+    #content .inner_content .book_page .left .cover {
+        padding-top: 7px
+    }
+
+    #content .inner_content .book_page .left .cover,
+    #content .inner_content .book_page .right .info {
+        margin: 0 auto 10px 0;
+        text-align: left
+    }
+
+    #content .inner_content .book_page .ads_under_details img {
+        display: block;
+        margin: 0 auto;
+        width: 80%
+    }
+
+    #content .inner_content .book_page .gallery {
+        padding: 0
+    }
+
+    #content .inner_content .book_page .gallery #append_thumbs {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 0 5px
+    }
+
+    #content .inner_content .book_page .gallery .preview_thumb {
+        width: 19.3%;
+        margin: 0
+    }
+
+    #content .inner_content .comments {
+        text-align: left
+    }
+
+    #content .inner_content .comments .alert {
+        font-size: .8em
+    }
+
+    #content .inner_content .profile_page .left {
+        float: left;
+        margin: 0 1% 0 0
+    }
+
+    #content .inner_content .profile_page .right {
+        float: left;
+        width: 57%
+    }
+
+    #content .inner_content .profile_page .right .profile_content {
+        width: 100%
+    }
+
+    #content .inner_content .profile_page .right .profile_content .preview_item {
+        width: 31.3%;
+        margin: .3% 1%
+    }
+
+    #content .inner_content .profile_page .right .profile_content .preview_item .image {
+        width: 100%
+    }
+
+    #content .inner_content .profile_page .right .profile_content .edit_profile input[type=password],
+    #content .inner_content .profile_page .right .profile_content .edit_profile input[type=text] {
+        width: 91%
+    }
+
+    #content .inner_content .profile_page .right .profile_content .preview_item .caption a {
+        font-size: 14px;
+        width: calc(99.33% - 12px)
+    }
+
+    #content .inner_content .login_page .login_form {
+        margin-left: 50px
+    }
+
+    #content .inner_content .login_page .register_form {
+        margin-right: 50px
+    }
+}
+
+@media(max-width:1200px) and (min-width:961px) {
+    .wrap {
+        width: 100%
+    }
+
+    #header {
+        height: 48px
+    }
+
+    #header .right .search {
+        margin: 7px 10px 0 0
+    }
+
+    #header .sec {
+        display: block !important;
+        height: 48px;
+        position: absolute;
+        right: 0
+    }
+
+    #header .nav ul li a {
+        height: 48px;
+        padding: 0 14px;
+        line-height: 48px
+    }
+
+    #header .right .search input[type=text],
+    .search_mobile input[type=text] {
+        width: 285px
+    }
+
+    #header .right {
+        float: left
+    }
+
+    #header .drop_btn {
+        display: block
+    }
+
+    #nav_btn {
+        display: none
+    }
+
+    .pagination {
+        margin-top: 50px;
+        flex-wrap: wrap;
+        padding-bottom: 20px
+    }
+
+    .page-item {
+        margin: 0 5px 5px 0
+    }
+
+    #content .inner_content {
+        padding: 0
+    }
+
+    #content .inner_content .preview_item {
+        width: 19%;
+        margin: 0;
+        margin-bottom: 3em !important
+    }
+
+    #content .inner_content .ov_item,
+    #content .inner_content .tag_gl,
+    #content .inner_content .favs_list {
+        justify-content: space-around !important;
+        padding: 0
+    }
+
+    #content .inner_content .preview_item .image {
+        width: 100%
+    }
+
+    #content .inner_content .preview_item .image .caption {
+        width: 100%
+    }
+
+    #content .inner_content .n_galleries .preview_item {
+        width: 19.2%;
+        margin-bottom: 3em !important;
+        margin-right: 7px
+    }
+
+    #content .inner_content .n_galleries .preview_item .image {
+        width: 100%
+    }
+
+    #content .inner_content .n_galleries .preview_item .image .caption {
+        width: 216px
+    }
+
+    #content .inner_content .book_page .left {
+        width: 372px
+    }
+
+    #content .inner_content .book_page .left .cover {
+        width: 350px
+    }
+
+    #content .inner_content .book_page .left .cover img {
+        width: 100%;
+        max-width: 350px
+    }
+
+    #content .inner_content .book_page .right {
+        float: left;
+        margin: 0 0 0 1.5%;
+        width: 58%
+    }
+
+    #content .inner_content .book_page .left .cover {
+        padding-top: 7px
+    }
+
+    #content .inner_content .book_page .left .cover,
+    #content .inner_content .book_page .right .info {
+        margin: 0 auto 10px 0;
+        text-align: left
+    }
+
+    #content .inner_content .book_page .ads_under_details img {
+        display: block;
+        margin: 0 auto;
+        width: 80%
+    }
+
+    #content .inner_content .book_page .gallery {
+        padding: 0
+    }
+
+    #content .inner_content .book_page .gallery #append_thumbs {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 0 5px
+    }
+
+    #content .inner_content .book_page .gallery .preview_thumb {
+        width: 19.3%;
+        margin: 0
+    }
+
+    #content .inner_content .comments {
+        text-align: left
+    }
+
+    #content .inner_content .comments .alert {
+        font-size: 14px
+    }
+
+    #content .inner_content .profile_page .left {
+        float: left;
+        margin: 0 1% 0 0
+    }
+
+    #content .inner_content .profile_page .right {
+        float: left;
+        width: 64%
+    }
+
+    #content .inner_content .profile_page .right .profile_content {
+        width: 100%
+    }
+
+    #content .inner_content .profile_page .right .profile_content .preview_item {
+        width: 31.3%;
+        margin: .3% 1%
+    }
+
+    #content .inner_content .profile_page .right .profile_content .preview_item .image {
+        width: 100%
+    }
+
+    #content .inner_content .profile_page .right .profile_content .preview_item .caption a {
+        font-size: 14px;
+        width: calc(99.33% - 12px)
+    }
+
+    #content .inner_content .profile_page .right .profile_content .edit_profile input[type=password],
+    #content .inner_content .profile_page .right .profile_content .edit_profile input[type=text] {
+        width: 93%
+    }
+
+    #content .inner_content .login_page .login_form {
+        margin-left: 150px
+    }
+
+    #content .inner_content .login_page .register_form {
+        margin-right: 150px
+    }
+}
+
+@media(max-width:1200px) and (min-width:1061px) {
+    #header .drop_btn {
+        display: none
+    }
+}
+
+@media(max-width:1630px) and (min-width:1061px) {
+    .friends {
+        display: none
+    }
+}
+
+@media(max-width:1060px) and (min-width:640px) {
+    #header .right .search .helpico {
+        right: 77px
+    }
+}
+
+@media(max-width:1060px) and (min-width:961px) {
+    #header .right .search a {
+        display: inline-block
+    }
+}
+
+@media(max-width:1060px) and (min-width:320px) {
+    #header .nav {
+        display: none
+    }
+}
+
+@media(max-width:480px) and (min-width:320px) {
+    .footer_center {
+        margin-top: 20px
+    }
+}
